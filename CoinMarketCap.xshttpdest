@@ -1,0 +1,10 @@
+description = "CoinMarketCap api httpS connection";
+host = "api.coinmarketcap.com";
+port = 443;
+useProxy = false;
+proxyHost = "";
+proxyPort = 0;
+authType = none;
+useSSL = true;
+timeout = 0;
+sslAuth = anonymous;

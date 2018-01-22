@@ -1,0 +1,13 @@
+{
+    "description": "Process ", 
+    "action": "CryptoCapJob:CoinMarketCap.xsjs::SyncCurrencysAndRates",
+    "schedules": [
+       {
+          "description": "Process CoinMarketCap",
+          "xscron": "* * * * * * 59",
+          "parameter": {
+             "database": "CryptCap"
+             }
+       } 
+    ]
+}
